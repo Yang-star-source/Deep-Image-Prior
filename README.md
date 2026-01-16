@@ -9,7 +9,7 @@ This repository covers three main image restoration tasks. You can run them dire
 | Task | Notebook | Description | Run |
 | :--- | :--- | :--- | :--- |
 | **Denoising** | `Deep_Image_Prior_Denoising.ipynb` | Removes noise from corrupted images using the neural network prior. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/Deep-Image-Prior/blob/master/Deep_Image_Prior_Denoising.ipynb) |
-| **Inpainting** | `Deep_Image_Prior_Inpainting.ipynb` | Fills in missing or corrupted regions of an image (e.g., removing text or scratches). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/Deep-Image-Prior/blob/master/Deep_Image_Prior_Inpainting.ipynb) |
+| **Inpainting** | `Deep_Image_Prior_Inpainting.ipynb` | Fills in missing or corrupted regions of an image based on local features of the image. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/Deep-Image-Prior/blob/master/Deep_Image_Prior_Inpainting.ipynb) |
 | **Super Resolution** | `Deep_Image_Prior_Super_Resolution.ipynb` | Upscales low-resolution images while preserving details. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yang-star-source/Deep-Image-Prior/blob/master/Deep_Image_Prior_Super_Resolution.ipynb) |
 
 ## How to Run (Reproducibility)
