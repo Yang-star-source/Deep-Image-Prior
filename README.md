@@ -18,8 +18,9 @@ These notebooks are optimized for **Google Colab**.
 
 1. Click the **"Open in Colab"** badge above for the task you want to test.
 2. In Colab, go to **Runtime > Change runtime type** and select **GPU** (T4 GPU is sufficient).
-3. Run all cells (`Ctrl + F9`).
+3. Run all cells (`Ctrl + F9`) for inpainting and super resolution notebook.
    - The code is set up to automatically handle dependencies and image downloading.
+4. For denoising notebook , check the description to choose whether a multiple times denoising is needed, manually click and run.
 
 ## Repository Structure
 
@@ -29,6 +30,7 @@ These notebooks are optimized for **Google Colab**.
 ## Notes
 - This implementation uses an untrained U-Net architecture.
 - Optimization is performed on a single image at runtime (no pre-training required).
+- For Denoising , specifically can only sharpen CAT images by importing Latent Diffusion I built (Unconditional Single Class Image Generation model).
 
 ## Citation
 
