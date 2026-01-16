@@ -1,4 +1,4 @@
-# Deep Image Prior Implementation (PyTorch)
+# Deep Image Prior Implementation : Denoising , Inpainting and Super Resolution
 
 This repository contains a PyTorch implementation of **Deep Image Prior**, exploring how a neural network structure alone can act as a prior for image restoration tasks without large training datasets.
 
