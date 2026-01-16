@@ -29,3 +29,15 @@ These notebooks are optimized for **Google Colab**.
 ## Notes
 - This implementation uses an untrained U-Net architecture.
 - Optimization is performed on a single image at runtime (no pre-training required).
+
+## Citation
+
+This project implements the methods proposed in **Deep Image Prior**.
+
+```bibtex
+@article{UlyanovVL17,
+    author   = {Ulyanov, Dmitry and Vedaldi, Andrea and Lempitsky, Victor},
+    title    = {Deep Image Prior},
+    journal  = {arXiv:1711.10925},
+    year     = {2017}
+}
